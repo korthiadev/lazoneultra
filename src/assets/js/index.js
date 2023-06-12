@@ -22,10 +22,28 @@ class Splash {
 
     async startAnimation() {
         let splashes = [
-            { "message": "Je... vie...", "author": "Luuxis" },
-            { "message": "Salut je suis du code.", "author": "Luuxis" },
-            { "message": "Linux n' ai pas un os, mais un kernel.", "author": "Luuxis" }
-        ]
+            { "message": "Plongeurs, Bateau, Chute", "author": "BlagueBot" },
+            { "message": "Développeurs, Bugs, Boucles", "author": "BlagueBot" },
+            { "message": "Compatibilité, Développeur, Non-codeur", "author": "BlagueBot" },
+            { "message": "Programmeurs, Noël, Erreur de syntaxe", "author": "BlagueBot" },
+            { "message": "Octet, Triste, Pleurs", "author": "BlagueBot" },
+            { "message": "Développeurs web, Cafards, Bugs", "author": "BlagueBot" },
+            { "message": "Développeurs, Blague, Binaire", "author": "BlagueBot" },
+            { "message": "Algorithmes, Célibataires, Match parfait", "author": "BlagueBot" },
+            { "message": "Pirate, Musicien, Joues, Codes", "author": "BlagueBot" },
+            { "message": "Développeurs, Plantes, Environnement", "author": "BlagueBot" },
+            { "message": "Langage, Chats, Scratch", "author": "BlagueBot" },
+            { "message": "Robots, Calmes, Nerfs d'acier", "author": "BlagueBot" },
+            { "message": "Programmeurs, Fruit, Framboise Pi", "author": "BlagueBot" },
+            { "message": "Développeurs, Jardiniers, Main verte", "author": "BlagueBot" },
+            { "message": "Serveur, Chargé, Pause serveur", "author": "BlagueBot" },
+            { "message": "Ordinateurs, Danse, Bon rythme", "author": "BlagueBot" },
+            { "message": "Développeurs, Film, Réseaux sociaux", "author": "BlagueBot" }
+        ];
+    
+        // Code d'animation des blagues
+        
+       
         let splash = splashes[Math.floor(Math.random() * splashes.length)];
         this.splashMessage.textContent = splash.message;
         this.splashAuthor.children[0].textContent = "@" + splash.author;

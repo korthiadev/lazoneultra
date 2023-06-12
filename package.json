@@ -12,7 +12,7 @@
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "build": "node build.js --build",
-        "icon": "node build.js --icon=https://raw.githubusercontent.com/luuxis/Selvania-Launcher/master/src/assets/images/LA-ZONE-ULTRA-12-06-2023.gif",
+        "icon": "node build.js --icon=https://github.com/korthiadev/lazoneultra/blob/master/src/assets/images/LA-ZONE-ULTRA-12-06-2023.gif",
         "dev": "nodemon --exec npm start"
     },
     "license": "CC0",
