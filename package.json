@@ -5,7 +5,7 @@
     "description": "Launcher Mincraft for LAZONEULTA server",
     "main": "src/app.js",
     "author": "SHADOWYT",
-    "url": "http://craftdium.ml/launcherSelvania",
+    "url": "http://90.35.196.75/",
     "engines": {
         "node": "^18.x.x"
     },
