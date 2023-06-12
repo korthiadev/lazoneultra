@@ -43,7 +43,7 @@ class Index {
                     }]
                 },
                 linux: {
-                    icon: "./src/assets/images/icon.png",
+                    icon: "./src/assets/images/LA-ZONE-ULTRA-12-06-2023.gif",
                     target: [{
                         target: "AppImage",
                         arch: ["x64"]
@@ -68,7 +68,7 @@ class Index {
             Buffer = await image.resize(256, 256).getBufferAsync(Jimp.MIME_PNG)
             fs.writeFileSync("src/assets/images/icon.icns", png2icons.createICNS(Buffer, png2icons.BILINEAR, 0));
             fs.writeFileSync("src/assets/images/icon.ico", png2icons.createICO(Buffer, png2icons.HERMITE, 0, false));
-            fs.writeFileSync("src/assets/images/icon.png", Buffer);
+            fs.writeFileSync("src/assets/images/LA-ZONE-ULTRA-12-06-2023.gif", Buffer);
         } else {
             console.log('connection error')
         }
